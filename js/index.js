@@ -415,6 +415,12 @@ $(function(){
         $('.work .project .btn').removeClass('btn-default').addClass('btn-info');
         $(this).addClass('btn-default').removeClass('btn-info');
     });
+    $('.btnCss3').on('click',function () {
+        $('.work .project .row').css('display','none');
+        $('.work .project .css3').css('display','block');
+        $('.work .project .btn').removeClass('btn-default').addClass('btn-info');
+        $(this).addClass('btn-default').removeClass('btn-info');
+    });
     $('.btnGame').on('click',function () {
         $('.work .project .row').css('display','none');
         $('.work .project .game').css('display','block');
@@ -424,6 +430,18 @@ $(function(){
     $('.btnApp').on('click',function () {
         $('.work .project .row').css('display','none');
         $('.work .project .app').css('display','block');
+        $('.work .project .btn').removeClass('btn-default').addClass('btn-info');
+        $(this).addClass('btn-default').removeClass('btn-info');
+    });
+    $('.btnNode').on('click',function () {
+        $('.work .project .row').css('display','none');
+        $('.work .project .node').css('display','block');
+        $('.work .project .btn').removeClass('btn-default').addClass('btn-info');
+        $(this).addClass('btn-default').removeClass('btn-info');
+    });
+    $('.btnOther').on('click',function () {
+        $('.work .project .row').css('display','none');
+        $('.work .project .other').css('display','block');
         $('.work .project .btn').removeClass('btn-default').addClass('btn-info');
         $(this).addClass('btn-default').removeClass('btn-info');
     });

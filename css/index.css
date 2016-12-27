@@ -632,8 +632,7 @@ footer {
   50% {
     opacity: 0.5; }
   100% {
-    opacity: 1;
-    /*透明度为1*/ } }
+    opacity: 1; } }
     footer .mouse span {
       color: #fff;
       text-shadow: 0 0 5px #CCCCCC, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC, 0 0 20px #095816, 0 0 25px #CCCCCC; }

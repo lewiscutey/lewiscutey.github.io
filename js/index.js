@@ -29,7 +29,7 @@ function allcon() {
     setTimeout(function() {
         $(".p2").show(300);
     }, 600);
-};
+}
 
 $(".button_img").click(function() {
     menu("news.asp", "a/news.asp");

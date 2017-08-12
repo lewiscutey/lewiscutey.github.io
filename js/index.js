@@ -11,9 +11,13 @@ $(function() {
     $("article").height(a);
     $(".button").css("top", a * 0.5 - 90);
     $("img").load(function() {
-        anum++;
-        $(".loadf div").html("已加载" + Math.round(anum / 0.25) + "%");
-    })
+        if (anum <= 90) {
+            anum += Math.ceil(Math.random()*10);  
+        } else if (anum > 90 && anum < 100) {
+            anum++;
+        }
+        $(".loadf div").html("已加载" + anum + "%");
+    });
 });
 
 $(window).resize(function() {
